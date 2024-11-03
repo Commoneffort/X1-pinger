@@ -207,7 +207,7 @@ async function checkAndWithdraw() {
 }
 
 // Set an interval to check balance and withdraw every 24 hours
-setInterval(checkAndWithdraw, 2 * 60 * 1000);
+setInterval(checkAndWithdraw, 24 * 60 * 60 * 1000);
 
 // Endpoint to get the current ping stats
 app.get('/ping_times', (req, res) => {
