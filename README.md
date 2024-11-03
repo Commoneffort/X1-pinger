@@ -28,7 +28,7 @@ This codebase is a server application built with **Node.js**, **Express**, and *
    npm install express axios @solana/web3.js
    
   **Set Up Solana Keypairs: Ensure that the id.json, withdrawer.json, and identity.json keypair files are located in the appropriate directories**:
- ```
+
    ~/.config/solana/id.json
    ~/solana/withdrawer.json
    ~/solana/identity.json
